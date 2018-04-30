@@ -1,0 +1,39 @@
+{
+  "name": "npm-downloads-count",
+  "version": "0.0.1",
+  "description": "Get your npm package downloads from your command line.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest && standard --fix",
+    "start": "node index.js"
+  },
+  "bin": {
+    "npmcount": "index.js"
+  },
+  "keywords": [
+    "npm",
+    "npm-downloads",
+    "npm-package-count"
+  ],
+  "author": "Kautilya Tripathi <tripathi.kautilya@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knrt10/npm-downloads-count-cli"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^22.4.3",
+    "nodemon": "^1.17.3",
+    "standard": "^11.0.1"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "dependencies": {
+    "cli-table2": "^0.2.0",
+    "commander": "^2.15.1",
+    "request": "^2.85.0"
+  }
+}
