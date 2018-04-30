@@ -2,6 +2,10 @@
 
 A simple command line tool to check number of downloads of your npm package
 
+# Preview
+
+![preview](https://user-images.githubusercontent.com/24803604/39419384-48704030-4c7d-11e8-8071-08c508a0da7a.gif)
+
 # Install using npm
 
 `npm i --global npm-downloads-count`
