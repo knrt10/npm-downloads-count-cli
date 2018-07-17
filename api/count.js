@@ -1,6 +1,6 @@
 const request = require('request')
 const red = '\x1b[31m%s\x1b[0m'
-const Table = require('cli-table2')
+const Table = require('cli-table3')
 
 /**
 * Using npm api to get number of downloads for last-day
